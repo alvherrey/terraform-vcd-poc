@@ -18,10 +18,10 @@ variable "vcd_url" {
 }
 ```
 
-### Ejemplos
+## Ejemplos
 https://developer.vmware.com/samples/7210/vcd-terraform-examples
 
-### Comandos
+## Comandos
 ```
 terraform init
 terraform plan
