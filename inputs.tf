@@ -1,10 +1,10 @@
 variable "vcd_user" {
   description = "vcd_user"
-  default = "ahernandez"
+  default = "<username>"
 }
 variable "vcd_pass" {
   description = "vcd_pass"
-  default = "PASSWORD"
+  default = "<password>"
 }
 variable "vcd_org" {
   description = "vcd_org"
@@ -16,7 +16,7 @@ variable "vcd_vdc" {
 }
 variable "vcd_url" {
   description = "vcd_url"
-  default = "URL"
+  default = "https://go1kloud.kionetworks.es/api"
 }
 variable "vcd_max_retry_timeout" {
   description = "vcd_max_retry_timeout"

@@ -19,3 +19,14 @@ provider "vcd" {
   max_retry_timeout    = var.vcd_max_retry_timeout
   allow_unverified_ssl = var.vcd_allow_unverified_ssl
 }
+
+# A simple user created with the minimum of properties
+# uses the "password" field
+resource "vcd_org_user" "alvaro" {
+  org = var.vcd_org
+
+  name        = "alvaro"
+  description = "a new org admin"
+  role        = "Organization Administrator"
+  password    = "change-me"
+}
