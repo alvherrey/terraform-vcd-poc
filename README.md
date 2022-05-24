@@ -1,9 +1,14 @@
 # terraform-vcd-poc
 Terraform with VMware Cloud Director Provider PoC
 
-## Pre-requisitos
-### Instalar el provider vcd (solo es necesario la instalacion the built provider)
+## Requirements
+### Install terraform on linux
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+### Install vcd provider (requires terraform cli) (go to -> Using the provider)
 https://github.com/vmware/terraform-provider-vcd
+when terraform init, you need to use the specific version installed under:
+`$HOME/.terraform.d/plugins/registry.terraform.io/vmware/vcd/${VERSION}/${OS}_amd64/terraform-provider-vcd_v${VERSION}`
+Add that version to the main.tf, after that, next terraform init will success!
 test with:
 ```
 terraform init
