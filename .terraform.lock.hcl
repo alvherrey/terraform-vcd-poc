@@ -2,9 +2,9 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/vmware/vcd" {
-  version     = "3.5.0"
-  constraints = "3.5.0"
+  version     = "3.6.0"
+  constraints = "3.6.0"
   hashes = [
-    "h1:jqMLNwYKQyFXY9rxweH8wTbBuGdXYncUgis1uad1n9M=",
+    "h1:OEvP+GByE0dgR+/6Y9JumqgCVk45m9P65PiKrN+nV9E=",
   ]
 }

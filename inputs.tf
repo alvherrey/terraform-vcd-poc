@@ -1,10 +1,10 @@
 variable "vcd_user" {
   description = "vcd_user"
-  default = "<username>"
+  default = "admin_onboarding"
 }
 variable "vcd_pass" {
   description = "vcd_pass"
-  default = "<password>"
+  default = "0nb0ard1ng.2018"
 }
 variable "vcd_org" {
   description = "vcd_org"
