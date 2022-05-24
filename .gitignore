@@ -29,7 +29,5 @@ override.tf.json
 # example: *tfplan*
 
 # Custom add
-inputs.tf
+# inputs.tf
 ubuntu-20.04.3-live-server-amd64.iso
-*.log
-.terraform.lock.hcl
