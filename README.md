@@ -27,6 +27,7 @@ https://registry.terraform.io/providers/vmware/vcd/latest/docs
 
 ## Examples
 https://developer.vmware.com/samples/7210/vcd-terraform-examples
+https://github.com/tschoergez/vcd-terraform-examples/blob/master/tenant/main.tf
 
 ## Commands
 ```
