@@ -22,11 +22,13 @@ variable "vcd_url" {
   default = "https://go1kloud.kionetworks.es/api"
 }
 ```
+## Official documentation
+https://registry.terraform.io/providers/vmware/vcd/latest/docs
 
-## Ejemplos
+## Examples
 https://developer.vmware.com/samples/7210/vcd-terraform-examples
 
-## Comandos
+## Commands
 ```
 terraform init
 terraform plan
